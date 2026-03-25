@@ -40,9 +40,7 @@ export default function AppLayout() {
       >
         {/* Logo */}
         <div className="flex h-16 items-center gap-3 border-b border-sidebar-border px-4">
-          <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-primary text-primary-foreground font-bold text-sm">
-            S
-          </div>
+          <img src="/Fav-icon.png" alt="Logo" className="h-8 w-8 shrink-0 rounded-md object-contain" />
           {!collapsed && (
             <span className="text-sm font-semibold tracking-tight text-sidebar-accent-foreground">
               SOTA Reporting
@@ -143,7 +141,7 @@ export default function AppLayout() {
 
             {/* Avatar */}
             <Avatar className="h-8 w-8">
-              <AvatarFallback className="bg-primary text-primary-foreground text-xs">RK</AvatarFallback>
+              <AvatarFallback className="bg-primary text-primary-foreground text-xs">SK</AvatarFallback>
             </Avatar>
           </div>
         </header>

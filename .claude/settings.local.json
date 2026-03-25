@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(/c/Users/Admin/Desktop/indicatorems/.gitignore:*)"
+      "Bash(/c/Users/Admin/Desktop/indicatorems/.gitignore:*)",
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(xxd C:/Users/Admin/AppData/Local/Temp/claude/C--Users-Admin-Desktop-indicatorems/f006e256-78f0-4d69-b3ef-06d5c9e8311b/tasks/bqybei96h.output)",
+      "Bash(curl:*)",
+      "Bash(netstat -ano)",
+      "Bash(tasklist:*)",
+      "Bash(npx vite:*)"
     ]
   }
 }

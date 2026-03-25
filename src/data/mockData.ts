@@ -209,7 +209,7 @@ export const sapAlerts = [
 
 // ─── USERS ───
 export const mockUsers = [
-  { id: "USR-001", name: "Rajesh Kumar", email: "rajesh@sota.com", role: "CEO", avatar: "RK" },
+  { id: "USR-001", name: "Srinath Kumar", email: "srinath@sota.com", role: "CEO", avatar: "SK" },
   { id: "USR-002", name: "Priya Sharma", email: "priya@sota.com", role: "Manager", avatar: "PS" },
   { id: "USR-003", name: "Anil Patel", email: "anil@sota.com", role: "Manager", avatar: "AP" },
   { id: "USR-004", name: "Deepa Nair", email: "deepa@sota.com", role: "Employee", avatar: "DN" },
